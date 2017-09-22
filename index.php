@@ -12,7 +12,7 @@
 
 <body>
 <?php
-	header('Location:./sk/index.php')
+	header('Location:./sk/index.html')
 ?>
 </body>
 </html>
