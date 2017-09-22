@@ -125,3 +125,17 @@ input, textarea{
 	background-color: #222;
 	z-index: 999999;
 }
+.lang{
+	position: absolute;
+	padding: 5px 5px 10px 5px;
+	background: #222;
+	right: 5%;
+	border: 1px solid #B48A3E;
+}
+
+.lang li{
+	display: inline;
+	list-style: none;
+	text-align: center;
+	margin: 5px;
+}
