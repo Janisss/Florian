@@ -38,8 +38,8 @@
 </div> 
   <a href="./kontakty.html">
   <div class="rezervacia hidden-xs">
-  	<h1>Rezervácia</h1>
-  	<p>Rezervovať teraz!</p>
+  	<h1>Foglalás</h1>
+  	<p>Foglaljon most!</p>
   </div>
   </a>
    <!-- Navigation -->
@@ -53,23 +53,24 @@
       <div class="collapse navbar-collapse" id="topFixedNavbar1">
        <div class="my-menu">
         <ul class="nav navbar-nav">
-          <li class="menu-anim"><a class="menu-ins" href="./index.html">O penzióne</a></li>
-          <li class="menu-anim"><a class="menu-ins" href="./aktivity.html">Aktivity</a></li>
-          <li class="menu-anim"><a class="menu-ins" href="./eventy.html">Eventy</a></li>
-          <li class="menu-anim"><a class="menu-ins" href="./gastro.html">Gastronómia</a></li>
-          <li class="menu-anim"><a class="menu-ins" href="./ubytovanie.html">Ubytovanie</a></li>
-          <li class="menu-anim"><a class="menu-ins" href="./wellnes.html">Wellness & Spa</a></li>
-          <li class="menu-anim"><a class="menu-ins" href="./sedliacky.html">Sedliacky dvor</a></li>
-          <li class="active menu-anim"><a class="menu-ins" href="./kontakty.html">Kontakt<span class="sr-only">(current)</span></a></li>
+   			<li class="menu-anim"><a class="menu-ins" href="./index.html">A panzióról</a></li>
+ 			<li class="menu-anim"><a class="menu-ins" href="./aktivity.html">Tevékenységek</a></li>
+          	<li class="menu-anim"><a class="menu-ins" href="./eventy.html">Események</a></li>
+          	<li class="menu-anim"><a class="menu-ins" href="./gastro.html">Gasztronómia</a></li>
+          	<li class="menu-anim"><a class="menu-ins" href="./ubytovanie.html">Szállás</a></li>
+          	<li class="menu-anim"><a class="menu-ins" href="./wellnes.html">Wellness & Spa</a></li>
+          	<li class="menu-anim"><a class="menu-ins" href="./sedliacky.html">Gazdasági udvar</a></li>
+          	<li class="active menu-anim"><a class="menu-ins" href="./kontakty.html">Elérhetőség<span class="sr-only">(current)</span></a></li>
         </ul> </div>
       </div>
       <!-- /.navbar-collapse -->
     </div>
   	<div class="lang">
     	<ul style="margin:0; padding:0;">
-    		<li><a href="#"><img src="flags/sk.png" alt=""></a></li>
+    		<li><a href="../sk/kontakty.html"><img src="flags/sk.png" alt=""></a></li>
     	    <li><a href="../de/kontakty.html"><img src="flags/de.png" alt=""></a></li>
     		<li><a href="../gb/kontakty.html"><img src="flags/gb.png" alt=""></a></li>
+    		<li><a href="#"><img src="flags/hu.png" alt=""></a></li>
     	</ul>    	
     </div>
     <!-- /.container-fluid -->
@@ -80,15 +81,15 @@
 <div class="divider"></div>
 <div class="row">
 	<div class="col-md-6">
-		<h1>Rezervácie</h1>
-		<p>Pre rezerváciu izby nás neváhajte kontaktovať na čísle +421 908 11 22 23<br>
-		alebo vyplne jednoduchý formulár a naši pracovníci Vás budú kontaktovať.</p>
+		<h1>Foglalás</h1>
+		<p>Ha szobát foglal, hívjon fel minket a +421 908 11 22 23 számon vagy töltse<br> 
+		ki az egyszerű űrlapot és munkatársunk felveszi Önnel a kapcsolatot.</p>
 
 <div class="form-wrapper">
 	<form action="post-rezervacia.php" method="post">
 		<div class="row">
 			<div class="col-md-3" style="text-align: right;">
-				<p>Vaše celé meno:</p>
+				<p>Teljes neve:</p>
 			</div>
 			<div class="col-md-9">
 				<input type="text" name="rmeno">
@@ -96,7 +97,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3" style="text-align: right;">
-				<p>Telefónne číslo:</p>
+				<p>Telefonszám:</p>
 			</div>
 			<div class="col-md-9">
 				<input type="text" name="rcislo">
@@ -104,7 +105,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3" style="text-align: right;">
-				<p>Emailová adresa:</p>
+				<p>E-mail cím:</p>
 			</div>
 			<div class="col-md-9">
 				<input type="text" name="remail">
@@ -112,7 +113,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3" style="text-align: right;">
-				<p>Pobyt od:</p>
+				<p>Tartózkodás kezdete:</p>
 			</div>
 			<div class="col-md-9">
 				<input data-provide="datepicker" class="datepicker" name="od">
@@ -120,7 +121,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3" style="text-align: right;">
-				<p>Pobyt do:</p>
+				<p>Tartózkodás vége:</p>
 			</div>
 			<div class="col-md-9">
 				<input data-provide="datepicker" class="datepicker" name="do">
@@ -128,7 +129,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3" style="text-align: right;">
-				<p>Poznámka:</p>
+				<p>Megjegyzés:</p>
 			</div>
 			<div class="col-md-9">
 				<textarea name="rsprava" id="a"></textarea>
@@ -136,21 +137,20 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3"></div>
-			<div class="col-md-9"><input type="submit" value="Odoslať" name="rsubmit"></div>
+			<div class="col-md-9"><input type="submit" value="Elküld" name="rsubmit"></div>
 		</div>
 		
 	</form>
 </div>
 	</div>
 	<div class="col-md-6">
-		<h1>Kontaktujte nás</h1>
-		<p>V prípade akýchkoľvek otázok sme tu pre Vás.
-		Kontaktujte nás telefonicky, emailom alebo prostredníctvom krátkeho formuláru.</p>
+		<h1>Lépjen velünk kapcsolatba</h1>
+		<p>Bármilyen kérdés esetén készséggel állunk rendelkezésére. Lépjen velünk kapcsolatba telefonon, e-mailben vagy a rövid űrlap révén. </p>
 <div class="form-wrapper">
 	<form action="post-kontakt.php" method="post">
 		<div class="row">
 			<div class="col-md-3" style="text-align: right;">
-				<p>Vaše celé meno:</p>
+				<p>Teljes neve:</p>
 			</div>
 			<div class="col-md-9">
 				<input type="text" name="kmeno">
@@ -158,7 +158,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3" style="text-align: right;">
-				<p>Telefónne číslo:</p>
+				<p>Telefonszám:</p>
 			</div>
 			<div class="col-md-9">
 				<input type="text" name="kcislo">
@@ -166,7 +166,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3" style="text-align: right;">
-				<p>Emailová adresa:</p>
+				<p>E-mail cím:</p>
 			</div>
 			<div class="col-md-9">
 				<input type="text" name="kemail">
@@ -174,7 +174,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3" style="text-align: right;">
-				<p>Správa:</p>
+				<p>Üzenet:</p>
 			</div>
 			<div class="col-md-9">
 				<textarea name="ksprava" id="b"></textarea>
@@ -182,7 +182,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3"></div>
-			<div class="col-md-9"><input type="submit" value="Odoslať" name="ksubmit"></div>
+			<div class="col-md-9"><input type="submit" value="Elküld" name="ksubmit"></div>
 		</div>
 		
 	</form>
@@ -196,7 +196,7 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4"><h1>Kontakt</h1>
+			<div class="col-lg-4"><h1>Elérhetőség</h1>
 			<ul>
 				<li><a href="mailto:info@florianov-dvor.sk">info@florianov-dvor.sk</a></li>
 				<li><a href="mailto:recepcia@florianov-dvor.sk">recepcia@florianov-dvor.sk</a></li>
@@ -205,19 +205,19 @@
 			</ul>
 			<div class="fb-like" data-href="https://www.facebook.com/florianovdvor/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true" style="margin: 5px 0 0 20px"></div>
 			</div>
-			<div class="col-lg-4"><h1>Mapa stránky</h1>
+			<div class="col-lg-4"><h1>Térképnézet</h1>
 			<ul style="color: white;">
-				<li>O penzióne</li>
-				<li>Aktivity</li>
-				<li>Eventy</li>
-				<li>Gastronómia</li>
-				<li>Ubytovanie</li>
+				<li>A panzióról</li>
+				<li>Tevékenységek</li>
+				<li>Események</li>
+				<li>Gasztronómia</li>
+				<li>Szállás</li>
 				<li>Wellness & Spa</li>
-				<li>Sedliacky dvor</li>
-				<li>Kontakt</li>
+				<li>Gazdasági udvar</li>
+				<li>Elérhetőség</li>
 			</ul>
 			</div>
-			<div class="col-lg-4"><h1>Kde nás najdete?</h1>
+			<div class="col-lg-4"><h1>Hol talál meg minket?</h1>
 			<div id="map"></div>
 			<script>
       function initMap() {
