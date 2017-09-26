@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+ body {
+	background: url(./IMG_8265.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.divider {
+	display: block;
+	height: 40px;
+	width: 100%;
+}
+
+footer {
+	margin-top: 150px;
+	background-color: rgba(34, 34, 34, 1);
+	width: 100%;
+	bottom:0;
+	border-top: 1px solid #B48A3E;
+}
+
+footer h1 {
+	font-size: 2em;
+}
+
+.rezervacia{
+	position: fixed;
+	background: #222222;
+	width: 200px;
+	height: 85px;
+	text-align: center;
+	transform: rotate(-90deg);
+	right:-58px;
+	padding: 0;
+	top: 20%;
+	border: 1px solid #B48A3E;
+	transition: all .3s ease;
+	overflow: hidden;
+	border-bottom: none;
+	z-index: 9999;
+}
+
+.rezervacia:hover{
+	right:-40px;
+	overflow: hidden;
+	height: 120px;
+}
+
+#map{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+.thumbnail{
+	background-color: #B48A3E !important;
+	border-color:  #B48A3E;
+}
+.izbastandart{
+	background-image: url(img/standard.JPG);
+	height: 350px;
+	background-size: cover;
+	background-position: center;
+}
+.izbaverystandart{
+	background-image: url(img/very_stand.jpg);
+	height: 350px;
+	background-size: cover;
+	background-position: center;
+}
+
+/*360 foto link ready
+.izbaverystandart:after, .izbastandart:after{
+	content: "360° Foto";
+	padding-top: 5px;
+	background: rgba(0,0,0,0.67);
+	width: 100%;
+	position: relative;
+	display: block;
+	color: white;
+	text-align: center;
+	font-family: Great !important;
+	font-size: 3em;
+}
+.trisest:after{
+	content: "360° Foto";
+	padding-top: 5px;
+	background: rgba(0,0,0,0.67);
+	width: 100%;
+	position: relative;
+	color: white;
+	text-align: center;
+	font-family: Great !important;
+	font-size: 3em;
+}
+*/
+.pripravujeme{
+	width: 80px;
+	height: 250px;
+	background-image: url(img/pripravujeme.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+input, textarea{
+	background: #222;
+	color: white;
+	width: 85%;
+	border: none;
+	border: 1px solid #B48A3E;
+	font-size: 1.7rem;
+	padding-left: 10px;
+	resize: none;
+}
+.loading{
+	position: fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width: 100%;
+	background-color: #222;
+	z-index: 999999;
+}
+.lang{
+	position: absolute;
+	padding: 5px 5px 10px 5px;
+	background: #222;
+	right: 5%;
+	border: 1px solid #B48A3E;
+}
+
+.lang li{
+	display: inline;
+	list-style: none;
+	text-align: center;
+	margin: 5px;
+}
