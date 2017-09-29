@@ -139,3 +139,15 @@ input, textarea{
 	text-align: center;
 	margin: 5px;
 }
+@media (min-width: 768px) and (max-width: 1199px){
+	.nav > li > a{
+		padding: 10px 0px 10px 10px !important;
+		
+	}
+	.navbar-brand > img{
+		width: 110px !important;
+		margin: 0px 0px 0px -50px !important;
+		
+	}
+	
+}
