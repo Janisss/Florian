@@ -2,6 +2,8 @@
 $( window ).load(function() {
 	setTimeout(function(){
 		$(".loading").fadeOut();
+		// silvester popup
+			        $('#silvester').modal('show');
 	}, 1000);
 });
 
