@@ -1,11 +1,4 @@
 // JavaScript Document
-$( window ).load(function() {
-	setTimeout(function(){
-		$(".loading").fadeOut();
-		// silvester popup
-			        $('#silvester').modal('show');
-	}, 1000);
-});
 
 $("button").click(function(){
   $(".subdiv").toggleClass("active");
