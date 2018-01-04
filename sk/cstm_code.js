@@ -1,4 +1,10 @@
 // JavaScript Document
+$( window ).load(function() {
+	setTimeout(function(){
+		$(".loading").fadeOut();
+		// silvester popup
+	}, 1000);
+});
 
 $("button").click(function(){
   $(".subdiv").toggleClass("active");
